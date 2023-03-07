@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="area">
+        Interact
+
+    </div>
+    <script>
+    var a = window.document.getElementById ('area')
+    a.addEventListener ('click', clicar)
+    a.addEventListener ('mouseenter', entrou)
+    a,addEventListener ('mouseout', saiu)
+
+
+        function clicar(){
+        a.innerText = 'Cliked'
+        a.style.background = 'red'
+        }
+        function entrou(){
+            a.innerText = 'Came in'
+        }
+        function saiu(){
+            a.innerText = 'Out'
+            a.style.background ='green'
+        }
+        
+    </script>
+</body>
+</html>
