@@ -14,6 +14,8 @@
 
             
             if (fsex[0].checked){
+
+            
                 genero = 'homen'
 
                 if (idade >=0 && idade < 10){
@@ -28,8 +30,8 @@
                 }else{
                     //idoso
                     img.setAttribute('src', 'imagens/idosom.png')
-                }
-
+                }}
+                if (fsex[01].checked){
                 genero = 'mulher'
                 if (idade >=0 && idade < 10){
                     //criança
