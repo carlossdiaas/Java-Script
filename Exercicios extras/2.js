@@ -1,4 +1,4 @@
-let menber = "bronze"
+/*let menber = "bronze"
 if (menber === "gold"){
     console.log('You are a menber gold!')}
 if (menber === "Diamond"){
@@ -7,3 +7,8 @@ if (menber === "Diamond"){
 if (menber === "bronze"){
     console.log("You are a menber Bronze")
 }
+*/
+
+//
+ var member = 'ouro'
+ console.log(`Você é um membro ${member}`)
