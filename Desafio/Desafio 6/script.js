@@ -18,3 +18,4 @@ if (carro>moto && carro>caminhao){
 }else{
     console.log('passaram mais caminhoes')
 }
+    
