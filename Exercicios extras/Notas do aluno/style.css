@@ -1,0 +1,32 @@
+#sec{
+    transform: translate(-50%, -50%);
+
+    margin-left: 50%;
+    margin-top: 20%;
+    height: 50px;
+    width: 300px;
+    background-color: red;
+}
+#sec {
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+#imgs{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+#idoso{
+    display: none;
+}
+#crianca{
+    display: none;
+}
+#jovem{
+    display: none;
+}
+#adulto{
+    display: none;
+}

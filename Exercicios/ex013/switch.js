@@ -8,7 +8,7 @@ var diaSem = agora.getDay()
     4=Quinta
     5=Sexta
     6=Sabado
-*/var diaSem = 55
+*/
 console.log(diaSem)
 switch(diaSem) {
     case 0:
@@ -28,7 +28,7 @@ switch(diaSem) {
         break
     case 5:
         console.log('Hoje é Sexta')
-        break
+        break0
     case 6:
         console.log('Hoje é Sábado')
         break
