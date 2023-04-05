@@ -8,3 +8,8 @@ function calcularArea(largura,comprimento){
     var area = largura * comprimento
     return area
 }
+if (area > 200){
+    document.write(`O terreno possui mais de 200 metros`)
+}else{
+    document.write(`-----------------O terreno possui menos de 200 metros`)
+}
