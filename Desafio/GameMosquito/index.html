@@ -5,11 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="fim.css">
+    <script>
+        function iniciarJogo(){
+            var nivel = document.getElementById('nivel').value
+            if (nivel.valeu === ''){
+                alert('selecione um nivel')
+                return false
+            }else{
+                 window.location.href = 'app.html?' + nivel
+            }
+
+           
+
+        
+
+
+        }
+    </script>
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="jogo.js"></script>
+    <main>
+        <div class="gameover">
+            <img class="foto" src="imagens/game.png" alt="">
+
+
+            <a class="btn ini" href="app.html
+            " onclick="iniciarJogo()">Iniciar</a>
+
+
+            <select name="Nivel" id="nivel">
+                <option value="normal">Normal</option>
+                <option value="dificil">dificil</option>
+                <option value="hard">hard</option>
+
+            </select>
+        </div>
+    </main>
+    
 </body>
 </html>
